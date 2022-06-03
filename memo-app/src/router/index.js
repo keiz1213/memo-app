@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import MemoBord from '../components/MemoBord.vue'
+import MemoBoard from '../components/MemoBoard.vue'
 import MemoDetail from '../components/MemoDetail.vue'
 import MemoCreate from '../components/MemoCreate.vue'
 
@@ -10,7 +10,7 @@ const routes = [
   {
     path: '/',
     name: 'MemoBord',
-    component: MemoBord
+    component: MemoBoard
   },
   {
     path: '/memos/new',

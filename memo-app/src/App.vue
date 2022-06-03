@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <MemoBord/>
+    <MemoBoard/>
   </div>
 </template>
 
 <script>
-import MemoBord from './components/MemoBord.vue'
+import MemoBoard from './components/MemoBoard.vue'
 
 export default ({
   components: {
-    MemoBord
+    MemoBoard
   }
 })
 </script>
