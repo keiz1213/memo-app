@@ -30,9 +30,9 @@ export default {
   },
   methods: {
     fetchData: function () {
-      const filterdMemos = this.memos.filter(memo => {
-        return memo.id === this.$route.params.memoId
-      })
+      const filterdMemos = this.memos.filter(memo =>
+        memo.id === this.$route.params.memoId
+      )
       this.memo = filterdMemos[0]
     },
     update: function () {

@@ -2,7 +2,7 @@
   <div class="memo-list">
     <h1>メモ一覧</h1>
     <div v-for="memo in memos" :key="memo.id">
-      <router-link :to="{ path: '/memos/' + memo.id}">{{ memo.content.split(/\r\n|\r|\n/)[0] }}</router-link>
+      <router-link :to="`/memos/${memo.id}`">{{ memo.content.split(/\r\n|\r|\n/)[0] }}</router-link>
     </div>
       <router-link to="/memos/new">+</router-link>
   </div>
