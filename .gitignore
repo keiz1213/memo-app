@@ -24,6 +24,4 @@ pnpm-debug.log*
 
 # レビューに不要と思われるファイル
 .editorconfig
-babel.config.js
-jsconfig.json
-README.md
+
